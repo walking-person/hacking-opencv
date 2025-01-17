@@ -10,6 +10,57 @@
 		/>
 	</head>
 	<body>
-		<h1 class="text-box">Hello</h1>
+		<nav>
+			<div class="nav-container">
+				<img
+					src="{{ url_for('static', filename='images/logo.png') }}"
+					alt="logo"
+				/>
+				<ul class="nav-list">
+					<li>New & Featured</li>
+					<li>Men</li>
+					<li>Women</li>
+					<li>Kids</li>
+					<li>Sale</li>
+					<li>SNKRS</li>
+				</ul>
+				<div class="auth">
+					<button class="sign-up">Sign up</button>
+					<button class="sign-in">Sign in</button>
+				</div>
+			</div>
+		</nav>
+		<div class="download-nike-app">
+			<div class="text-box">
+				<h1 class="hello-app">Hello Nike App</h1>
+				<p class="subtitle-app">
+					Download the app to access everything Nike
+					<a class="link-app" href="#">Get Your Great</a>
+				</p>
+			</div>
+		</div>
+		<div class="bilbord">
+			<img
+				class="bilbord-image"
+				src="{{ url_for('static', filename='images/banner.png') }}"
+				alt="Banner"
+			/>
+		</div>
+
+		<div class="new-model">
+			<div class="new-model-container">
+				<p class="new-model-text">First Look</p>
+				<h1 class="new-model-subtitle">Nike Air Max Pulse</h1>
+				<p class="new-model-subsubtitle">
+					Extreme comfort. Hyper durable. Max volume. Introducing the Air Max
+					Pulse <br />
+					—designed to push you past your limits and help you go to the max.
+				</p>
+				<div class="button-model">
+					<button class="notify">Notify me</button>
+					<button class="buy-air-max">Shop Air Max</button>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

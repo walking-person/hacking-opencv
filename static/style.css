@@ -1,9 +1,131 @@
-body {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-container {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+	font-weight: 500;
+}
+
+.sign-up {
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	transition: 500ms;
+}
+
+.sign-up:hover {
+	background: none;
+	border: 1px solid black;
+	transition: 500ms;
+}
+
+.sign-in {
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	transition: 500ms;
+}
+
+.sign-in:hover {
 	background-color: black;
+	color: #ffffff;
+	transition: 500ms;
+}
+
+.download-nike-app {
+	background-color: rgb(245, 242, 242);
 }
 
 .text-box {
-	font-weight: 600;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.hello-app {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.subtitle-app {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.link-app {
+	color: black;
+}
+
+.bilbord {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.bilbord-image {
+	max-width: 100%;
+	height: auto;
+	scale: 1;
+}
+
+.new-model-container {
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.new-model-text {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.new-model-subtitle {
+	font-size: 90px;
+	margin-bottom: 10px;
+}
+
+.new-model-subsubtitle {
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+
+.notify {
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 15px;
+	background-color: black;
 	color: white;
+}
+
+.buy-air-max {
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	font-size: 12px;
 }
